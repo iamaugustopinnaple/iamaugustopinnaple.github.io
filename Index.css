@@ -1,0 +1,558 @@
+body {
+    background-color: #fafafa;
+    margin:0px;
+    display:flex; 
+    justify-content: center
+}
+
+#main {
+    width:100vw;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#hero1 { 
+    width: 100%;  
+    height: 100vh; 
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#imagem1_div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#imagem1 { /* ananás matrix */
+    background-image: url(imagens/ananasamarelo.png);
+    width: 450px;
+    height: 670px;
+    background-size: cover;
+    display: flex;
+    align-items: center;  
+    object-fit: contain;
+    box-sizing: border-box;
+/*    position: absolute;*/
+
+}
+
+
+    
+#passado_div {
+    width: 15%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+#passado {
+	width: 0%;
+	height: 100vh;
+    background-size: cover;
+    display: flex;
+    box-sizing: border-box;
+    font-family: helvetica;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    -webkit-transform: rotate(-90deg);
+    font-size: 60px;
+      
+}
+
+
+.passado:hover {
+    width: 0%;
+	height: 100vh;
+    background-size: cover;
+    display: flex;
+    box-sizing: border-box;
+    font-family: helvetica;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    -webkit-transform: rotate(-90deg);
+    font-size: 60px;
+    color: #503eff;
+}
+
+
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color:black;
+}
+
+.mail:link {
+    text-decoration: none;
+    color:white;
+}
+
+.mail:hover {
+    text-decoration: none;
+    color:#503eff;
+}
+
+#futuro_div {
+    width: 15%;
+    height: 100vh;  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+#futuro {
+	width: 0%;
+	height: 100px; /* this is the problem ?? */
+    background-size: cover;
+    display: flex;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg); 
+    font-size: 60px;
+    object-fit: contain;     
+}
+
+
+
+.futuro:hover {
+    width: 0%;
+	height: 100px; /* this is the problem ?? */
+    background-size: cover;
+    display: flex;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg); 
+    font-size: 60px;
+    object-fit: contain;
+    color: #503eff;
+}
+
+
+
+#hero2 {
+	width: 100%;
+	height: 800px;
+	background-color: #503eff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero2content {
+    width: 60%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* para ele descer quando não tem espaço */    
+}
+
+
+
+#imagem2 { /* ananás confuso */
+    background-image: url(imagens/ananasconfuso.png);
+    width: 240px;
+	height: 410px;
+    background-size: contain;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat; /* para a imagem não se repetir */
+}
+
+
+.overlay {
+    background-image: url(imagens/ananasconfuso2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 410px;
+    margin-bottom: 2px;
+    opacity: 0;
+    transition: .3s ease;   
+}
+
+.container:hover .overlay {
+  opacity: 1;    
+}
+
+
+#text2 {
+    width: 390px;
+    height: 250px;
+    min-width: 270px;
+    min-height: 200px;
+    background-size: cover;
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    right: 320px;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+#hero3 {
+	width: 100%;
+	height: 700px;
+	background-color: #503eff; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+#audio {
+   width:50%;
+   height:100%;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+
+#imagem3div {
+    width: 50%;
+	height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
+
+
+
+#imagem3 {
+    background-image: url(imagens/aberto.png);
+    width: 500px;
+	height: 470px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: contain;
+    box-sizing: border-box;
+    background-repeat: no-repeat;   
+}
+       
+
+#imagem4 {
+    background-image: url(imagens/ananasjanela.jpg);
+    width: 100vw;  
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+
+
+
+
+/* FOOTER */
+
+#footer { 
+    width: 100%;  
+    height: 400px; 
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footerup {
+    background-color: black;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#icons {
+    width: 40%;  
+    height: 30%; 
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    justify-content: center;   
+}
+
+
+.facebook, .insta, .snap, .twitter {
+    width: 25%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin:5px;
+}
+
+
+.facebook {
+    background-image:url(imagens/facebook1.png);
+    
+}
+
+.insta {
+    background-image: url(imagens/insta1.png);
+}
+
+.snap {
+    background-image:url(imagens/snap1.png);
+    
+}
+
+.twitter {
+    background-image: url(imagens/twitter1.png);
+}
+
+
+
+.facebook:hover {
+    background-image:url(imagens/facebook2.png);
+    
+}
+
+.insta:hover {
+    background-image: url(imagens/insta2.png);
+}
+
+.snap:hover {
+    background-image:url(imagens/snap2.png);
+    
+}
+
+.twitter:hover {
+    background-image: url(imagens/twitter2.png);
+}
+
+
+#followaugusto {
+    width: 50%;
+    height: 50%;
+    display:flex;
+    font-family: helvetica;
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center; 
+    font-weight: bold;    
+}
+
+
+#footerdown {
+    background-color: black;
+    width: 100%;  
+    height: 50%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;    
+}
+
+
+
+#ananasmini {
+    width: 30%;  
+    height: 70%;
+    background-image: url(imagens/ananasamarelomini.png);
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#ananasminileft {
+    background-color: black;
+    width: 35%;  
+    height: 100%;
+    display:flex;
+    font-family: helvetica;
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;    
+}
+
+#ananasminiright {
+    background-color: black;
+    width: 35%;  
+    height: 100%;
+    display:flex;
+    font-family: helvetica;
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+
+@media only screen and (max-width: 500px) {
+   
+    
+    #footerdown {
+        flex-direction:column;
+        width: 50%;
+        height: 100vh;
+    }
+    
+    #footer { 
+    width: 100%;  
+    height: 100vh;
+    align-content: center;
+    justify-content: center; 
+    
+    }
+    
+    #icons {
+    width: 70%;  
+    height: 50%;
+   
+}
+
+    
+    #ananasmini {
+    width: 100%;
+    height: 50%;
+}
+    
+    #ananasminileft {
+    background-color: black;
+    width: 100%;  
+    font-size: 100%;
+    text-align: center;
+}
+    
+    #ananasminiright {
+    width: 100%;  
+    height: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* FIM FOOTER */
+    
+/* MEDIA QUERY */
+
+
+@media only screen and (max-width:500px){
+    
+#hero1{
+        width: 100vw;  
+        height: 100vh; 
+        flex-direction: column;
+    }
+    
+#imagem1 {
+        width: 200px;
+        height: 300px; 
+    }
+    
+#passado {
+    transform: none;
+    font-size: 50px;     
+}
+    
+#futuro {
+    transform: none; 
+    font-size: 50px;      
+}
+
+#imagem2 { /* ananás confuso */
+    width: 170px;
+	height: 300px;
+    margin-right: none;
+    margin-left: none;
+}
+    
+#text2 {
+    width: 200px;
+    height: 50px;
+    min-width: none;
+    min-height: none;
+    font-size: 15px;
+    right:none;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 150px; 
+    text-align: center;
+} 
+
+
+#hero3 {
+    flex-direction: column;
+}
+
+    #imagem3div {
+    width: 100%;
+	height: 100%;   
+}
+    
+#imagem3 {
+    width: 60%;
+	height: 80%;
+    margin-bottom: 50px;
+}  
+    
+    
+   
+}
+
+
+

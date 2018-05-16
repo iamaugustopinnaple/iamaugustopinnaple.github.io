@@ -1,0 +1,369 @@
+body {
+    background-color: #fafafa;
+    margin:0px;
+    display:flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+}
+
+#hero1 { 
+    width: 100%;  
+    height: 100vh; 
+    background-color: #fafafa;
+    display: flex;
+}
+
+#hero1content{
+    width: 80%;
+    height: 100%;
+    background-color: #fafafa;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#imagens {
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+#divlol {
+    width:15%;
+    height:100%;
+    background-color: transparent;   
+}
+
+
+
+#futuro_div {
+    width: 15%;
+    height: 100vh;  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    align-self: flex-end;
+  
+}
+
+
+#futuro {
+	width: 100%;
+	height: 100px; 
+    display: flex;
+    font-family: Helvetica;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg); 
+    font-size: 60px;
+    color: #503eff; 
+}
+
+iframe {
+    border: none;
+    height: 100%;
+    width: 100%;
+
+}
+   
+#clickarea {
+    width: 20%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    left: 0; 
+    cursor: url(imagens/cursor_amarelo_esquerda.png),auto;   
+}
+
+    
+/*footer*/
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color:white;
+}
+
+.mail:link {
+    text-decoration: none;
+    color:white;
+}
+
+.mail:hover {
+    text-decoration: none;
+    color:#503eff;
+}
+
+
+
+#footer { 
+    width: 100%;  
+    height: 400px; 
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footerup {
+    background-color: black;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#icons {
+    width: 40%;  
+    height: 30%; 
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    justify-content: center;   
+}
+
+
+.facebook, .insta, .snap, .twitter {
+    width: 25%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin:5px;
+}
+
+
+.facebook {
+    background-image:url(imagens/facebook1.png);
+    
+}
+
+.insta {
+    background-image: url(imagens/insta1.png);
+}
+
+.snap {
+    background-image:url(imagens/snap1.png);
+    
+}
+
+.twitter {
+    background-image: url(imagens/twitter1.png);
+}
+
+
+
+.facebook:hover {
+    background-image:url(imagens/facebook2.png);
+    
+}
+
+.insta:hover {
+    background-image: url(imagens/insta2.png);
+}
+
+.snap:hover {
+    background-image:url(imagens/snap2.png);
+    
+}
+
+.twitter:hover {
+    background-image: url(imagens/twitter2.png);
+}
+
+
+#followaugusto {
+    width: 50%;
+    height: 50%;
+    display:flex;
+    font-family: helvetica;
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center; 
+    font-weight: bold;    
+}
+
+
+#footerdown {
+    background-color: black;
+    width: 100%;  
+    height: 50%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;    
+}
+
+
+
+#ananasmini {
+    width: 30%;  
+    height: 70%;
+    background-image: url(imagens/ananasamarelomini.png);
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#ananasminileft {
+    background-color: black;
+    width: 35%;  
+    height: 100%;
+    display:flex;
+    font-family: helvetica;
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;    
+}
+
+#ananasminiright {
+    background-color: black;
+    width: 35%;  
+    height: 100%;
+    display:flex;
+    font-family: helvetica;
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+
+@media only screen and (max-width: 500px) {
+   
+    
+    #footerdown {
+        flex-direction:column;
+        width: 50%;
+        height: 100vh;
+    }
+    
+    #footer { 
+    width: 100%;  
+    height: 100vh;
+    align-content: center;
+    justify-content: center; 
+    
+    }
+    
+    #icons {
+    width: 70%;  
+    height: 50%;   
+}
+
+    #ananasmini {
+    width: 100%;
+    height: 50%;
+}
+    
+    #ananasminileft {
+    background-color: black;
+    width: 100%;  
+    font-size: 100%;
+    text-align: center;
+}
+    
+    #ananasminiright {
+    width: 100%;  
+    height: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+    
+    
+@media only screen and (max-width:500px){
+ 
+iframe {
+        width: 400px;
+        height: 200px;
+    }
+    
+#hero1 {  
+    height: 100vh; 
+    justify-content: center;
+}
+    
+  #hero1content{
+    width: 90%; 
+    
+}  
+ 
+    
+#divlol {
+    width:0%;
+    height:0%;  
+}
+
+
+#futuro_div {
+    width: 100%;
+    height: 20%;  
+    position: absolute;
+    top: 35px;
+  
+}
+
+
+#futuro {
+	width: 100%;
+	height: 20%; 
+    display: flex;
+    font-family: Helvetica;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    transform: none; 
+    font-size: 50px;
+    color: #503eff; 
+    position: absolute;    
+}
+    
+
+    #clickarea {
+    background-image: url(imagens/back2.png);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 0; 
+    top: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+    cursor: auto;    
+}
+
+}

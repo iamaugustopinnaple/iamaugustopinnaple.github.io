@@ -1,0 +1,675 @@
+/* PASSADO */
+
+
+body {
+    background-color: #fafafa;
+    margin:0px;
+    display:flex; 
+    justify-content: center
+}
+
+#main {
+    width:100vw;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero { 
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+
+#passado_div {
+    width: 15%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position:absolute;
+} 
+
+#passado {
+	width: 80%;
+	height: 100%;
+    background-size: cover;
+    display: flex;
+    box-sizing: border-box;
+    font-family: helvetica;
+    color:#503eff;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-90deg);
+    font-size: 60px;
+    position: absolute;    
+}
+
+
+
+/* SLIDESHOW */
+/* SLIDESHOW */
+/* SLIDESHOW */
+/* SLIDESHOW */
+/* SLIDESHOW */
+
+#slideshow{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.slideshow-container {
+  width: 100%;
+  height: 100%; 
+  margin: auto;
+  background-color: white;
+  align-items: center;
+  justify-content: center;     
+}
+
+
+.mySlides {
+   width: 100vw;
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+   background-size: auto;   
+}
+
+
+/* FIM DO SLIDESHOW */
+/* FIM DO SLIDESHOW */
+/* FIM DO SLIDESHOW */
+
+
+
+#clickarea {
+    width: 20%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    right: 0; 
+    cursor: url(imagens/cursor_amarelo_direita.png), auto;
+}
+
+
+/* 2ª DIV */
+
+#hero2{
+    width: 100vw;
+    height: 800px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+#hero2content {
+    width: 70%;
+    height: 100%;
+    background-color: #fafafa;
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+#texto_titulo {
+    background-color: #fafafa;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+#titulo {
+    width: 100%;
+    height: 300px;
+    font-family: HelveticaNeue;
+    display: flex;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #503eff;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+#texto {
+    color: black;
+    width: 400px;
+    height: 100px;
+    min-width: 400px;
+    max-width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#iframe_container {
+    width: 60%;
+    height: 50%;
+    justify-content: center;
+    display:flex;
+}
+
+
+
+
+
+/* 3ª Div */
+
+#hero3 {
+	width: 100vw;
+	height: 100vh;
+	background-color: #503eff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+
+#imagem2 {
+    background-image: url(imagens/ananas_espantado.png);
+    width: 100%;  
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+}
+    
+
+#hero4{
+    width: 100%;
+    height: 800px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#imagem3 {
+    background-image: url(imagens/ananas_bebe2.png);
+    width: 220px;
+    height: 390px;
+    background-size: contain;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    
+}
+
+#texto2 {
+    width: 400px;
+    height: 200px;
+    min-width: 200px;
+    min-height: 100px;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    right: 320px;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+#hero5 {
+	width: 100%;
+	height: 800px;
+	background-color: #503eff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero5content {
+    width: 60%;
+    height: 100%;
+    background-color: #503eff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;     
+}
+
+/* hover caminho */
+
+#imagem1 { /* caminho */
+    background-image: url(imagens/caminho1.png);
+    width: 700px;
+	height: 300px;
+    min-width: 600px;
+    min-width: 200px;
+    background-size: contain;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat; /* para a imagem não se repetir */
+}
+
+
+.overlay {
+    background-image: url(imagens/caminho2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 300px;
+    opacity: 0;
+    transition: .3s ease;   
+}
+
+.container:hover .overlay {
+  opacity: 1;    
+}
+
+/* FIM DO HOVER CAMINHO */
+
+/*FOOTER*/
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color:white;
+}
+
+.mail:link {
+    text-decoration: none;
+    color:white;
+}
+
+.mail:hover {
+    text-decoration: none;
+    color:#503eff;
+}
+
+#footer { 
+    width: 100%;  
+    height: 400px; 
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footerup {
+    background-color: black;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#icons {
+    width: 40%;  
+    height: 30%; 
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    justify-content: center;   
+}
+
+
+.facebook, .insta, .snap, .twitter {
+    width: 25%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin:5px;
+}
+
+
+.facebook {
+    background-image:url(imagens/facebook1.png);
+    
+}
+
+.insta {
+    background-image: url(imagens/insta1.png);
+}
+
+.snap {
+    background-image:url(imagens/snap1.png);
+    
+}
+
+.twitter {
+    background-image: url(imagens/twitter1.png);
+}
+
+
+
+.facebook:hover {
+    background-image:url(imagens/facebook2.png);
+    
+}
+
+.insta:hover {
+    background-image: url(imagens/insta2.png);
+}
+
+.snap:hover {
+    background-image:url(imagens/snap2.png);
+    
+}
+
+.twitter:hover {
+    background-image: url(imagens/twitter2.png);
+}
+
+
+#followaugusto {
+    width: 50%;
+    height: 50%;
+    display:flex;
+    font-family: helvetica;
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center; 
+    font-weight: bold;    
+}
+
+
+#footerdown {
+    background-color: black;
+    width: 100%;  
+    height: 50%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;    
+}
+
+
+
+#ananasmini {
+    width: 30%;  
+    height: 70%;
+    background-image: url(imagens/ananasamarelomini.png);
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#ananasminileft {
+    background-color: black;
+    width: 35%;  
+    height: 100%;
+    display:flex;
+    font-family: helvetica;
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;    
+}
+
+#ananasminiright {
+    background-color: black;
+    width: 35%;  
+    height: 100%;
+    display:flex;
+    font-family: helvetica;
+    color: white;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+
+@media only screen and (max-width: 500px) {
+   
+    
+    #footerdown {
+        flex-direction:column;
+        width: 50%;
+        height: 100vh;
+    }
+    
+    #footer { 
+    width: 100%;  
+    height: 100vh;
+    align-content: center;
+    justify-content: center; 
+    
+    }
+    
+    #icons {
+    width: 70%;  
+    height: 50%;
+   
+}
+
+    
+    #ananasmini {
+    width: 100%;
+    height: 50%;
+}
+    
+    #ananasminileft {
+    background-color: black;
+    width: 100%;  
+    font-size: 100%;
+    text-align: center;
+}
+    
+    #ananasminiright {
+    width: 100%;  
+    height: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+    
+    
+    
+/* FIM DO FOOTER */ 
+    
+    
+/* MEDIA QUERY */
+
+
+@media only screen and (max-width:500px){
+    
+#hero { 
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/plantacao1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+    
+    
+#passado {
+    transform: none;
+    font-size: 50px;
+    align-items: none;      
+}   
+    
+  #passado_div {
+    width: 100vw;
+    height: 32%;
+} 
+    
+#slideshow{
+    width: none;
+    height: none;
+    display: none;
+    visibility: hidden;
+} 
+
+
+.slideshow-container {
+   visibility: hidden;
+   display: none;
+}
+
+
+.mySlides {
+   width: none;
+   height: none;
+   display: none;
+   visibility: hidden;
+    
+}
+    
+    
+#texto_titulo {
+    width: 80%;
+}
+
+#titulo {
+    width: 100%;
+    height: 200px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+
+#texto {
+    width: 400px;
+    height: 100px;
+    min-width: 300px;
+    max-width: 100px;
+    font-size: 15px;
+}
+
+
+#imagem3 {
+    width: 170px;
+    height: 300px;
+    margin-bottom: 0px;    
+}
+
+    
+#texto2 {
+    width: 400px;
+    height: 200px;
+    font-size: 15px;
+    right: 0px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+    
+#hero5 {
+	width: 100%;
+	height: 100vh;
+	background-color: #503eff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
+ #hero5content {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;    
+}   
+
+#imagem1 { /* caminho */
+    background-image: url(imagens/caminhomobile.png);
+    width: 30%;
+	height: 80%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.overlay {
+    background-image: none; 
+}
+
+    
+#clickarea {
+    background-image: url(imagens/back1.png);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 0px; 
+    top: 80%; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    justify-content: center;
+    cursor: auto;
+    
+}
+    
+}
+   
+    
+    
+    
+    
+    
